@@ -25,4 +25,12 @@ li {
   }
 }
 
+@media screen and (min-width: 580px) {
+  html {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 /*Maybe add media queries at: 336, 377, 380*/
