@@ -5,17 +5,36 @@ html {
   font-size: 1.125em; /*18 /16 = 1.125*/
   line-height: 1.55555em; /*28 /18 =1.55555em */
   padding: 1.55555em; /*28 /18 =1.55555em */
-  background: #b1b3b5;
+  background-color: #b1b3b5;
+}
+fieldset{
+  border-color: transparent;
+}
+
+#content {
+  border-color: transparent;
+  background-color: #c3c5c7
 }
 
 h1 {
   font-size: 1.333333em; /*24/18= 1.333333em*/
   font-weight: bold;
-  padding-bottom: 1em; /*18/18=1em */
+  padding-top: 1em; /*18/18=1*/
+  padding-bottom: 1em; /*18/18=1.555 */
+}
+
+label {
+  display: block;
+  padding-bottom: 0.5em; /*9/18=0.5em */
 }
 
 li {
   padding-bottom: 1em; /*18/18=1em */
+}
+
+button, input {
+  border-color: transparent;
+  background-color: #8b8c8c;
 }
 
 @media screen and (min-width: 336px) {
