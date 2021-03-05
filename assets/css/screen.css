@@ -32,9 +32,15 @@ li {
   padding-bottom: 1em; /*18/18=1em */
 }
 
+[type="date"] {
+  padding-bottom: 0.5em; /*9/18=0.5em */
+}
+
 button, input {
+  font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   border-color: transparent;
   background-color: #8b8c8c;
+  overflow: visible;
 }
 
 @media screen and (min-width: 336px) {
